@@ -47,6 +47,19 @@ mvn spring-boot:run
 
 The API will be available at `http://localhost:8080`
 
+## API Documentation
+
+Once the application is running, you can access the Swagger UI at:
+- **Swagger UI**: `http://localhost:8080/swagger-ui.html`
+- **OpenAPI JSON**: `http://localhost:8080/api-docs`
+
+The Swagger UI provides an interactive interface to:
+- View all available API endpoints
+- Test API calls directly from the browser
+- See request/response schemas
+- View example requests and responses
+- Understand error codes and their meanings
+
 ## API Endpoints
 
 ### Create User
@@ -156,5 +169,7 @@ src/main/java/com/mservice/cinema/promotion/cinema_promotion/
 - Spring Boot 3.5.4
 - Spring Data JPA
 - PostgreSQL
+- Redis
+- Swagger/OpenAPI 3
 - Maven
 - Java 22 
